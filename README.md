@@ -18,9 +18,9 @@
     利用<code>webview</code>去呈現資料             
     因為此APP並非連續注視型，使用者可能只須看過一個公里數，10分鐘後才會需要再看下一個公里數。             
     像如果用傳統的"scroll"手勢，常常增加使用者找資料的困難度。                
-4. <code>column width</code>                           
-   所以我將<code>webview</code>搭配CSS的排版，讓<code>webview</code>以【頁】的方式呈現                    
-5. <code>scroll by</code>                      
-   最後再利用 Jacascript的<code>scroll by</code>做出翻頁的感覺，如此一來，就可以達成使用者在單手操作的情況下可以輕鬆地翻到下一頁，也不會造成因為scroll而產生的混亂感。
+4. <code>column width</code>                                         
+    為了解決第3點提到的問題，我將<code>webview</code>搭配CSS的排版，讓<code>webview</code>以【頁】的方式呈現                    
+5. <code>scroll by</code>                                         
+    最後再利用 Jacascript的<code>scroll by</code>做出翻頁的感覺，如此一來，就可以達成使用者在單手操作的情況下可以輕鬆地翻到下一頁，也不會造成因為scroll而產生的混亂感。
    
 
