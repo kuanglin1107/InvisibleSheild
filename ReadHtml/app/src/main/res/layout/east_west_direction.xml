@@ -5,16 +5,18 @@
     android:gravity="center_horizontal">
 
     <Button
-    android:text="東行"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/button_east" />
-
-    <Button
         android:text="西行"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_west"
-        android:layout_marginLeft ="70sp"
+
         />
+
+    <Button
+    android:text="東行"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button_east"
+    android:layout_marginLeft ="70sp"/>
+
 </LinearLayout>
