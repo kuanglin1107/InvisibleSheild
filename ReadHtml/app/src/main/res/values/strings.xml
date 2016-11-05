@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ReadHtml</string>
+    <string name="file1">國道1</string>
+    <string name="file2">國道2</string>
+    <string name="file3">國道3</string>
+    <string name="file4">國道4</string>
+    <string name="file5">國道5</string>
+    <string name="file6">國道6</string>
+    <string name="file7">國道8</string>
+    <string name="file8">國道10</string>
 </resources>

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,17 +16,13 @@ import android.widget.Button;
 
 public class CustomDialog {
 
-    private Context context;
-
-    public interface ButtonOnClick {
-        void click(View v,AlertDialog gg);
-    }
+    private static Context context;
 
     public CustomDialog(Context context) {
         this.context = context;
     }
 
-    public void popout_NS(final ButtonOnClick ccc){
+    public void popout_NS(final DialogButton ccc){
 
         LayoutInflater inflater = LayoutInflater.from(context);
         final View v = inflater.inflate(R.layout.north_south_direction, null);
@@ -45,7 +42,7 @@ public class CustomDialog {
         alertD.show();
         alertD.setCanceledOnTouchOutside(true);
     }
-    public void popout_EW(final ButtonOnClick ccc){
+    public void popout_EW(final DialogButton ccc){
         LayoutInflater inflater = LayoutInflater.from(context);
         final View v = inflater.inflate(R.layout.east_west_direction, null);
         final AlertDialog alertD =new AlertDialog.Builder(context).create();

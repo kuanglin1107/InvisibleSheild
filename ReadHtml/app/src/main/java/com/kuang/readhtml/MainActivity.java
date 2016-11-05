@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    content = content.replace("-webkit-column-width: 100px;","-webkit-column-width: "+width+"px;");
+                    content = content.replace("-webkit-column-width: 100px;","-webkit-column-width: "+width+"px;  font-size: 28px;");
                 }
             });}
         @JavascriptInterface
